@@ -7,6 +7,10 @@ using Toybox.Graphics as Gfx;
 module BLEBarrel {
     module Rez {
         module Styles {
+            module prompt_font_enhanced_readability__body_with_title {
+                const exclude as Boolean = true;
+            } // prompt_font_enhanced_readability__body_with_title
+
             module system_size__menu_header {
                 const width as Number = 175;
                 const height as Number = 62;
@@ -15,6 +19,10 @@ module BLEBarrel {
             module system_loc__hint_button_left_bottom {
                 const exclude as Boolean = true;
             } // system_loc__hint_button_left_bottom
+
+            module prompt_font_enhanced_readability__body_no_title {
+                const exclude as Boolean = true;
+            } // prompt_font_enhanced_readability__body_no_title
 
             module prompt_loc__body_no_title {
                 const x as Number = 5;
@@ -122,6 +130,13 @@ module BLEBarrel {
                 const background as Number = 0x000000;
             } // prompt_color_dark__background
 
+            module system_icon_destructive__hint_action_menu {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\system_icon_destructive__hint_button_right_top.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // system_icon_destructive__hint_action_menu
+
             module system_loc__hint_action_menu {
                 const x as Number = 166;
                 const y as Number = 31;
@@ -194,13 +209,20 @@ module BLEBarrel {
                 const background = Graphics.COLOR_TRANSPARENT;
             } // confirmation_color_light__body
 
+            module confirmation_icon_light__hint_keep {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\confirmation_icon__hint_keep.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // confirmation_icon_light__hint_keep
+
             module activity_color_light__background {
                 const color as Number = 0xFFFFFF;
                 const background as Number = 0xFFFFFF;
             } // activity_color_light__background
 
             module system_icon_positive__hint_button_right_top {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\system_icon_dark__hint_button_right_top.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\system_icon_positive__hint_button_right_top.svg";
                 const disableTransparency as Boolean = true;
                 const dithering as String = "none";
                 const automaticPalette as Boolean = true;
@@ -221,7 +243,7 @@ module BLEBarrel {
             } // system_color_light__background
 
             module system_icon_destructive__hint_button_right_top {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\system_icon_dark__hint_button_right_top.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\system_icon_destructive__hint_button_right_top.svg";
                 const disableTransparency as Boolean = true;
                 const dithering as String = "none";
                 const automaticPalette as Boolean = true;
@@ -295,10 +317,24 @@ module BLEBarrel {
                 const exclude as Boolean = true;
             } // system_loc__hint_button_right_bottom
 
+            module confirmation_icon_dark__hint_reject {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\confirmation_icon__hint_reject.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // confirmation_icon_dark__hint_reject
+
             module confirmation_color_dark__body {
                 const color as Number = 0xFFFFFF;
                 const background = Graphics.COLOR_TRANSPARENT;
             } // confirmation_color_dark__body
+
+            module confirmation_icon_light__hint_confirm {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\confirmation_icon__hint_completion.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // confirmation_icon_light__hint_confirm
 
             module prompt_color_dark__title {
                 const color as Number = 0xFFFFFF;
@@ -321,6 +357,10 @@ module BLEBarrel {
                 const y as Number = 9;
             } // prompt_loc__title
 
+            module confirmation_font_enhanced_readability__body {
+                const exclude as Boolean = true;
+            } // confirmation_font_enhanced_readability__body
+
             module prompt_color_light__title {
                 const color as Number = 0x000000;
                 const background = Graphics.COLOR_TRANSPARENT;
@@ -337,12 +377,26 @@ module BLEBarrel {
                 const exclude as Boolean = true;
             } // system_icon_dark__hint_button_left_middle
 
+            module confirmation_icon_dark__hint_keep {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\confirmation_icon__hint_keep.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // confirmation_icon_dark__hint_keep
+
             module system_icon_light__cancel {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\system_icon_light__cancel.svg";
                 const disableTransparency as Boolean = true;
                 const dithering as String = "none";
                 const automaticPalette as Boolean = true;
             } // system_icon_light__cancel
+
+            module confirmation_icon_light__hint_reject {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\confirmation_icon__hint_reject.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // confirmation_icon_light__hint_reject
 
             module system_icon_light__about {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\system_icon_light__about.svg";
@@ -355,6 +409,10 @@ module BLEBarrel {
                 const width as Number = 40;
                 const scaleRelativeTo as String = "screen";
             } // system_size__toast_icon
+
+            module system_icon_dark__hint_button_right_middle {
+                const exclude as Boolean = true;
+            } // system_icon_dark__hint_button_right_middle
 
             module confirmation_icon__hint_reject {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\confirmation_icon__hint_reject.svg";
@@ -370,10 +428,25 @@ module BLEBarrel {
                 const automaticPalette as Boolean = true;
             } // system_icon_light__hint_action_menu
 
+            module system_icon_light__hint_button_right_middle {
+                const exclude as Boolean = true;
+            } // system_icon_light__hint_button_right_middle
+
+            module system_icon_destructive__hint_button_right_middle {
+                const exclude as Boolean = true;
+            } // system_icon_destructive__hint_button_right_middle
+
             module confirmation_loc__hint_reject {
                 const x as Number = 0;
                 const y as Number = 138;
             } // confirmation_loc__hint_reject
+
+            module confirmation_icon_dark__hint_delete {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\confirmation_icon__hint_delete.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // confirmation_icon_dark__hint_delete
 
             module activity_color_dark__background {
                 const color as Number = 0xFFFFFF;
@@ -475,6 +548,17 @@ module BLEBarrel {
                 const horizontalJustification as String = "center";
             } // confirmation_loc__hint_delete
 
+            module system_icon_positive__hint_action_menu {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\system_icon_positive__hint_button_right_top.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // system_icon_positive__hint_action_menu
+
+            module system_icon_positive__hint_button_right_middle {
+                const exclude as Boolean = true;
+            } // system_icon_positive__hint_button_right_middle
+
             module system_icon_light__hint_button_left_middle {
                 const exclude as Boolean = true;
             } // system_icon_light__hint_button_left_middle
@@ -494,6 +578,13 @@ module BLEBarrel {
                 const automaticPalette as Boolean = true;
             } // system_icon_dark__revert
 
+            module confirmation_icon_light__hint_delete {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\confirmation_icon__hint_delete.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // confirmation_icon_light__hint_delete
+
             module system_icon_dark__question {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\system_icon_dark__question.svg";
                 const disableTransparency as Boolean = true;
@@ -512,9 +603,18 @@ module BLEBarrel {
                 const screenWidth as Number = 176;
                 const screenShape = Toybox.System.SCREEN_SHAPE_SEMI_OCTAGON;
                 const hasNightMode as Boolean = false;
+                const hasGpu as Boolean = false;
                 const screenHeight as Number = 176;
                 const hasTouchScreen as Boolean = false;
+                const hasEnhancedReadabilityMode as Boolean = false;
             } // device_info
+
+            module confirmation_icon_dark__hint_confirm {
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\descentg1\\confirmation_icon__hint_completion.svg";
+                const disableTransparency as Boolean = true;
+                const dithering as String = "none";
+                const automaticPalette as Boolean = true;
+            } // confirmation_icon_dark__hint_confirm
 
             module prompt_font__body_no_title {
                 const justification = Graphics.TEXT_JUSTIFY_CENTER;
@@ -540,6 +640,10 @@ module BLEBarrel {
                 const horizontalJustification as String = "center";
                 const verticalJustification as String = "center";
             } // prompt_loc__title_icon
+
+            module prompt_font_enhanced_readability__title {
+                const exclude as Boolean = true;
+            } // prompt_font_enhanced_readability__title
 
             module prompt_color_dark__body {
                 const color as Number = 0xFFFFFF;

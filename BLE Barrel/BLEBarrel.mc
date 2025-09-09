@@ -363,6 +363,9 @@ class BleDevice extends BluetoothLowEnergy.BleDelegate {
 					if (deviceName.substring(0,3).equals("X4 ")) {
 						menuLevel = 2;
 					}
+					if (deviceName.substring(0,3).equals("X5 ")) {
+						menuLevel = 2;
+					}
 					connect(result);
 					return;
 				}

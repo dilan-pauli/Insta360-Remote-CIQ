@@ -2,7 +2,7 @@ using Toybox.WatchUi;
 using Toybox.System;
 using BLEBarrel;
 var mMessage = "Starting Widget";
-const vNum = "0.9.75";
+const vNum = "0.9.80";
 
 
 class ViewData extends WatchUi.View {

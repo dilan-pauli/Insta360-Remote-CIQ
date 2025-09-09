@@ -36,6 +36,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_dark__about
 
             module system_icon_light__question {
@@ -43,6 +44,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_light__question
 
             module system_loc__hint_button_left_top {
@@ -59,6 +61,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_dark__discard
 
             module system_size__menu_item {
@@ -74,11 +77,13 @@ module BLEBarrel {
             module system_icon_destructive__discard {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__discard.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_destructive__discard
 
             module system_icon_dark__hint_action_menu {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__hint_action_menu.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_dark__hint_action_menu
 
             module prompt_size__title {
@@ -135,6 +140,7 @@ module BLEBarrel {
             module system_icon_destructive__hint_action_menu {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__hint_action_menu.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_destructive__hint_action_menu
 
             module system_loc__hint_action_menu {
@@ -146,6 +152,7 @@ module BLEBarrel {
             module confirmation_icon__hint_confirm {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_completion.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon__hint_confirm
 
             module system_loc__hint_button_left_middle {
@@ -186,6 +193,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_light__save
 
             module prompt_color_light__body {
@@ -202,6 +210,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_light__warning
 
             module confirmation_color_light__body {
@@ -212,6 +221,7 @@ module BLEBarrel {
             module confirmation_icon_light__hint_keep {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_keep.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon_light__hint_keep
 
             module activity_color_light__background {
@@ -222,6 +232,7 @@ module BLEBarrel {
             module system_icon_positive__hint_button_right_top {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_positive__hint_button_right_top.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_positive__hint_button_right_top
 
             module system_size__screen {
@@ -232,6 +243,7 @@ module BLEBarrel {
             module system_icon_destructive__hint_button_right_bottom {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__hint_button_right_bottom.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_destructive__hint_button_right_bottom
 
             module system_color_light__background {
@@ -242,6 +254,7 @@ module BLEBarrel {
             module system_icon_destructive__hint_button_right_top {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__hint_button_right_top.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_destructive__hint_button_right_top
 
             module confirmation_loc__hint_confirm {
@@ -269,6 +282,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_dark__search
 
             module activity_color_light__text {
@@ -279,6 +293,7 @@ module BLEBarrel {
             module confirmation_icon__hint_keep {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_keep.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon__hint_keep
 
             module system_icon_dark__save {
@@ -286,6 +301,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_dark__save
 
             module system_icon_destructive__hint_button_left_middle {
@@ -297,6 +313,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_light__search
 
             module system_icon_dark__hint_button_left_bottom {
@@ -315,6 +332,7 @@ module BLEBarrel {
             module confirmation_icon_dark__hint_reject {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_reject.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon_dark__hint_reject
 
             module confirmation_color_dark__body {
@@ -325,6 +343,7 @@ module BLEBarrel {
             module confirmation_icon_light__hint_confirm {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_completion.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon_light__hint_confirm
 
             module prompt_color_dark__title {
@@ -335,11 +354,13 @@ module BLEBarrel {
             module system_icon_destructive__cancel {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__cancel.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_destructive__cancel
 
             module system_icon_light__hint_button_right_bottom {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__hint_button_right_bottom.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_light__hint_button_right_bottom
 
             module prompt_loc__title {
@@ -360,6 +381,7 @@ module BLEBarrel {
             module system_icon_dark__hint_button_right_top {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__hint_button_right_top.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_dark__hint_button_right_top
 
             module system_icon_dark__hint_button_left_middle {
@@ -369,6 +391,7 @@ module BLEBarrel {
             module confirmation_icon_dark__hint_keep {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_keep.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon_dark__hint_keep
 
             module system_icon_light__cancel {
@@ -376,11 +399,13 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_light__cancel
 
             module confirmation_icon_light__hint_reject {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_reject.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon_light__hint_reject
 
             module system_icon_light__about {
@@ -388,6 +413,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_light__about
 
             module system_size__toast_icon {
@@ -403,11 +429,13 @@ module BLEBarrel {
             module confirmation_icon__hint_reject {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_reject.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon__hint_reject
 
             module system_icon_light__hint_action_menu {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__hint_action_menu.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_light__hint_action_menu
 
             module system_icon_light__hint_button_right_middle {
@@ -427,6 +455,7 @@ module BLEBarrel {
             module confirmation_icon_dark__hint_delete {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_delete.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon_dark__hint_delete
 
             module activity_color_dark__background {
@@ -451,6 +480,7 @@ module BLEBarrel {
             module system_icon_destructive__warning {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_destructive__warning.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_destructive__warning
 
             module system_loc__hint_button_right_middle {
@@ -462,6 +492,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_dark__cancel
 
             module prompt_size__body_with_title {
@@ -484,6 +515,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_light__check
 
             module confirmation_input__reject {
@@ -498,6 +530,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_light__revert
 
             module system_size__subwindow {
@@ -513,6 +546,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_dark__check
 
             module confirmation_loc__hint_keep {
@@ -528,6 +562,7 @@ module BLEBarrel {
             module system_icon_positive__hint_action_menu {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_positive__hint_action_menu.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_positive__hint_action_menu
 
             module system_icon_positive__hint_button_right_middle {
@@ -541,11 +576,13 @@ module BLEBarrel {
             module system_icon_dark__hint_button_right_bottom {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_dark__hint_button_right_bottom.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_dark__hint_button_right_bottom
 
             module system_icon_positive__hint_button_right_bottom {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_positive__hint_button_right_bottom.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_positive__hint_button_right_bottom
 
             module system_icon_dark__revert {
@@ -553,11 +590,13 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_dark__revert
 
             module confirmation_icon_light__hint_delete {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_delete.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon_light__hint_delete
 
             module system_icon_dark__question {
@@ -565,6 +604,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_dark__question
 
             module system_icon_light__discard {
@@ -572,6 +612,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_light__discard
 
             module device_info {
@@ -587,6 +628,7 @@ module BLEBarrel {
             module confirmation_icon_dark__hint_confirm {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_completion.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon_dark__hint_confirm
 
             module prompt_font__body_no_title {
@@ -604,6 +646,7 @@ module BLEBarrel {
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
+                const packingFormat as String = "png";
             } // system_icon_dark__warning
 
             module prompt_loc__title_icon {
@@ -626,11 +669,13 @@ module BLEBarrel {
             module confirmation_icon__hint_delete {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\confirmation_icon__hint_delete.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // confirmation_icon__hint_delete
 
             module system_icon_light__hint_button_right_top {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_light__hint_button_right_top.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_light__hint_button_right_top
 
             module confirmation_size__body {
@@ -641,6 +686,7 @@ module BLEBarrel {
             module system_icon_positive__check {
                 const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\vivoactive5\\system_icon_positive__check.svg";
                 const dithering as String = "none";
+                const packingFormat as String = "png";
             } // system_icon_positive__check
         } // Styles
     } // Rez
