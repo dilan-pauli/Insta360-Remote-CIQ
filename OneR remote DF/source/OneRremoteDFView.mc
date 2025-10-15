@@ -4,7 +4,7 @@ using Toybox.Position;
 using Toybox.System;
 using Toybox.Time;
 
-const vNum = "0.9.27";
+const vNum = "0.9.28";
 var mMessage = "Starting DF";
 var width = 0;
 var height = 0;
