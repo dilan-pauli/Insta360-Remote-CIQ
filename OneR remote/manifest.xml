@@ -3,11 +3,14 @@
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
     <iq:application entry="Main" id="38afa6370ef54b479430e96d2de3b323" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="3.1.0" name="@Strings.AppName" type="widget" version="0.9.39">
         <iq:products>
+            <iq:product id="approachs50"/>
             <iq:product id="approachs7042mm"/>
             <iq:product id="approachs7047mm"/>
             <iq:product id="d2air"/>
             <iq:product id="d2airx10"/>
             <iq:product id="d2mach1"/>
+            <iq:product id="d2mach2"/>
+            <iq:product id="d2mach2pro"/>
             <iq:product id="descentg1"/>
             <iq:product id="descentg2"/>
             <iq:product id="descentmk2"/>
@@ -58,6 +61,8 @@
             <iq:product id="fenixe"/>
             <iq:product id="fr165"/>
             <iq:product id="fr165m"/>
+            <iq:product id="fr170"/>
+            <iq:product id="fr170m"/>
             <iq:product id="fr245"/>
             <iq:product id="fr245m"/>
             <iq:product id="fr255"/>
@@ -70,6 +75,7 @@
             <iq:product id="fr57042mm"/>
             <iq:product id="fr57047mm"/>
             <iq:product id="fr645m"/>
+            <iq:product id="fr70"/>
             <iq:product id="fr745"/>
             <iq:product id="fr945"/>
             <iq:product id="fr945lte"/>

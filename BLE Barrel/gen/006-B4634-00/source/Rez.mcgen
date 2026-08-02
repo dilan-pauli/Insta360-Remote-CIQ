@@ -234,7 +234,7 @@ module BLEBarrel {
 
             module confirmation_loc__hint_confirm {
                 const x as Number = 375;
-                const y as Number = 70;
+                const y as Number = 20;
                 const horizontalJustification as String = "center";
                 const verticalJustification as String = "center";
             } // confirmation_loc__hint_confirm
@@ -417,7 +417,7 @@ module BLEBarrel {
 
             module confirmation_loc__hint_reject {
                 const x as Number = 375;
-                const y as Number = 350;
+                const y as Number = 450;
                 const horizontalJustification as String = "center";
                 const verticalJustification as String = "center";
             } // confirmation_loc__hint_reject
@@ -515,14 +515,14 @@ module BLEBarrel {
 
             module confirmation_loc__hint_keep {
                 const x as Number = 375;
-                const y as Number = 350;
+                const y as Number = 450;
                 const horizontalJustification as String = "center";
                 const verticalJustification as String = "center";
             } // confirmation_loc__hint_keep
 
             module confirmation_loc__hint_delete {
                 const x as Number = 375;
-                const y as Number = 70;
+                const y as Number = 20;
                 const horizontalJustification as String = "center";
                 const verticalJustification as String = "center";
             } // confirmation_loc__hint_delete

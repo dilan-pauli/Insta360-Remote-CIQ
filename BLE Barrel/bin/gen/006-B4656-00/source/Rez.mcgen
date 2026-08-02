@@ -13,7 +13,7 @@ module BLEBarrel {
 
             module system_size__menu_header {
                 const width as Number = 390;
-                const height as Number = 90;
+                const height as Number = 130;
             } // system_size__menu_header
 
             module system_loc__hint_button_left_bottom {
@@ -25,19 +25,19 @@ module BLEBarrel {
             } // prompt_font_enhanced_readability__body_no_title
 
             module prompt_loc__body_no_title {
-                const x as Number = 39;
-                const y as Number = 58;
+                const x as Number = 40;
+                const y as Number = 95;
             } // prompt_loc__body_no_title
 
             module system_icon_dark__about {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__about.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__about.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
             } // system_icon_dark__about
 
             module system_icon_light__question {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__question.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__question.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -53,7 +53,7 @@ module BLEBarrel {
             } // prompt_font__title
 
             module system_icon_dark__discard {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__discard.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__discard.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -61,7 +61,7 @@ module BLEBarrel {
 
             module system_size__menu_item {
                 const width as Number = 390;
-                const height as Number = 100;
+                const height as Number = 130;
             } // system_size__menu_item
 
             module system_color_dark__text {
@@ -70,17 +70,17 @@ module BLEBarrel {
             } // system_color_dark__text
 
             module system_icon_destructive__discard {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_destructive__discard.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__discard.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_destructive__discard
 
             module system_icon_dark__hint_action_menu {
-                const exclude as Boolean = true;
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_top.svg";
+                const dithering as String = "none";
             } // system_icon_dark__hint_action_menu
 
             module prompt_size__title {
-                const width as Number = 165;
+                const width as Number = 272;
                 const height as Number = 70;
             } // prompt_size__title
 
@@ -99,16 +99,16 @@ module BLEBarrel {
             } // system_icon_destructive__hint_button_left_top
 
             module system_size__launch_icon {
-                const scaleX as Number = 54;
-                const scaleY as Number = 54;
+                const scaleX as Number = 56;
+                const scaleY as Number = 56;
                 const scaleRelativeTo as String = "screen";
             } // system_size__launch_icon
 
             module confirmation_input__confirm {
-                const y1 as Number = 274;
-                const x1 as Number = 200;
-                const y2 as Number = 348;
-                const x2 as Number = 326;
+                const y1 as Number = 310;
+                const x1 as Number = 100;
+                const y2 as Number = 390;
+                const x2 as Number = 290;
             } // confirmation_input__confirm
 
             module prompt_font__body_with_title {
@@ -117,8 +117,8 @@ module BLEBarrel {
             } // prompt_font__body_with_title
 
             module confirmation_loc__body {
-                const x as Number = 80;
-                const y as Number = 78;
+                const x as Number = 40;
+                const y as Number = 95;
             } // confirmation_loc__body
 
             module system_icon_destructive__hint_button_left_bottom {
@@ -131,18 +131,18 @@ module BLEBarrel {
             } // prompt_color_dark__background
 
             module system_icon_destructive__hint_action_menu {
-                const exclude as Boolean = true;
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__hint_action_menu.svg";
+                const dithering as String = "none";
             } // system_icon_destructive__hint_action_menu
 
             module system_loc__hint_action_menu {
-                const x as Number = 361;
-                const y as Number = 156;
+                const x as Number = 336;
+                const y as Number = 74;
             } // system_loc__hint_action_menu
 
             module confirmation_icon__hint_confirm {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_completion.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_completion.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon__hint_confirm
 
             module system_loc__hint_button_left_middle {
@@ -150,8 +150,8 @@ module BLEBarrel {
             } // system_loc__hint_button_left_middle
 
             module prompt_size__body_no_title {
-                const width as Number = 312;
-                const height as Number = 253;
+                const width as Number = 310;
+                const height as Number = 211;
             } // prompt_size__body_no_title
 
             module system_icon_light__hint_button_left_top {
@@ -164,7 +164,10 @@ module BLEBarrel {
             } // prompt_color_light__background
 
             module confirmation_input__delete {
-                const button = WatchUi.KEY_ENTER;
+                const y1 as Number = 0;
+                const x1 as Number = 100;
+                const y2 as Number = 90;
+                const x2 as Number = 290;
             } // confirmation_input__delete
 
             module system_icon_dark__hint_button_left_top {
@@ -172,11 +175,11 @@ module BLEBarrel {
             } // system_icon_dark__hint_button_left_top
 
             module system_input__action_menu {
-                const button = WatchUi.KEY_ACTION_MENU;
+                const button = WatchUi.KEY_ENTER;
             } // system_input__action_menu
 
             module system_icon_light__save {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__save.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__save.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -192,7 +195,7 @@ module BLEBarrel {
             } // system_loc__subwindow
 
             module system_icon_light__warning {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__warning.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__warning.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -204,9 +207,8 @@ module BLEBarrel {
             } // confirmation_color_light__body
 
             module confirmation_icon_light__hint_keep {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_keep.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_keep.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon_light__hint_keep
 
             module activity_color_light__background {
@@ -215,9 +217,8 @@ module BLEBarrel {
             } // activity_color_light__background
 
             module system_icon_positive__hint_button_right_top {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_positive__hint_button_right_top.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_positive__hint_button_right_top.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_positive__hint_button_right_top
 
             module system_size__screen {
@@ -226,9 +227,8 @@ module BLEBarrel {
             } // system_size__screen
 
             module system_icon_destructive__hint_button_right_bottom {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__hint_button_right_bottom.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_bottom.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_destructive__hint_button_right_bottom
 
             module system_color_light__background {
@@ -237,15 +237,14 @@ module BLEBarrel {
             } // system_color_light__background
 
             module system_icon_destructive__hint_button_right_top {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_destructive__hint_button_right_top.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__hint_button_right_top.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_destructive__hint_button_right_top
 
             module confirmation_loc__hint_confirm {
-                const x as Number = 262;
+                const x as Number = 195;
                 const horizontalJustification as String = "center";
-                const y as Number = 268;
+                const y as Number = 310;
             } // confirmation_loc__hint_confirm
 
             module activity_color_dark__text {
@@ -254,16 +253,19 @@ module BLEBarrel {
             } // activity_color_dark__text
 
             module confirmation_input__keep {
-                const button = WatchUi.KEY_ESC;
+                const y1 as Number = 310;
+                const x1 as Number = 100;
+                const y2 as Number = 390;
+                const x2 as Number = 290;
             } // confirmation_input__keep
 
             module prompt_loc__body_with_title {
-                const x as Number = 39;
-                const y as Number = 98;
+                const x as Number = 40;
+                const y as Number = 139;
             } // prompt_loc__body_with_title
 
             module system_icon_dark__search {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__search.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__search.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -275,13 +277,12 @@ module BLEBarrel {
             } // activity_color_light__text
 
             module confirmation_icon__hint_keep {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_keep.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_keep.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon__hint_keep
 
             module system_icon_dark__save {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__save.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__save.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -292,7 +293,7 @@ module BLEBarrel {
             } // system_icon_destructive__hint_button_left_middle
 
             module system_icon_light__search {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__search.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__search.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -307,14 +308,13 @@ module BLEBarrel {
             } // system_icon_positive__hint_button_left_top
 
             module system_loc__hint_button_right_bottom {
-                const x as Number = 322;
-                const y as Number = 258;
+                const x as Number = 337;
+                const y as Number = 259;
             } // system_loc__hint_button_right_bottom
 
             module confirmation_icon_dark__hint_reject {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_reject.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_reject.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon_dark__hint_reject
 
             module confirmation_color_dark__body {
@@ -323,47 +323,42 @@ module BLEBarrel {
             } // confirmation_color_dark__body
 
             module confirmation_icon_light__hint_confirm {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_completion.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_completion.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon_light__hint_confirm
 
             module prompt_color_dark__title {
-                const color as Number = 0xB3B3B3;
+                const color as Number = 0xFFFFFF;
                 const background = Graphics.COLOR_TRANSPARENT;
             } // prompt_color_dark__title
 
             module system_icon_destructive__cancel {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_destructive__cancel.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__cancel.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_destructive__cancel
 
             module system_icon_light__hint_button_right_bottom {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__hint_button_right_bottom.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_bottom.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_light__hint_button_right_bottom
 
             module prompt_loc__title {
-                const x as Number = 113;
-                const y as Number = 19;
+                const x as Number = 59;
+                const y as Number = 78;
             } // prompt_loc__title
 
             module confirmation_font_enhanced_readability__body {
-                const justification = Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER;
-                const font = Graphics.FONT_SMALL;
+                const exclude as Boolean = true;
             } // confirmation_font_enhanced_readability__body
 
             module prompt_color_light__title {
-                const color as Number = 0xB3B3B3;
+                const color as Number = 0xFFFFFF;
                 const background = Graphics.COLOR_TRANSPARENT;
             } // prompt_color_light__title
 
             module system_icon_dark__hint_button_right_top {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__hint_button_right_top.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_top.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_dark__hint_button_right_top
 
             module system_icon_dark__hint_button_left_middle {
@@ -371,26 +366,24 @@ module BLEBarrel {
             } // system_icon_dark__hint_button_left_middle
 
             module confirmation_icon_dark__hint_keep {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_keep.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_keep.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon_dark__hint_keep
 
             module system_icon_light__cancel {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__cancel.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__cancel.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
             } // system_icon_light__cancel
 
             module confirmation_icon_light__hint_reject {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_reject.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_reject.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon_light__hint_reject
 
             module system_icon_light__about {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__about.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__about.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -407,13 +400,13 @@ module BLEBarrel {
             } // system_icon_dark__hint_button_right_middle
 
             module confirmation_icon__hint_reject {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_reject.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_reject.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon__hint_reject
 
             module system_icon_light__hint_action_menu {
-                const exclude as Boolean = true;
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_top.svg";
+                const dithering as String = "none";
             } // system_icon_light__hint_action_menu
 
             module system_icon_light__hint_button_right_middle {
@@ -425,15 +418,14 @@ module BLEBarrel {
             } // system_icon_destructive__hint_button_right_middle
 
             module confirmation_loc__hint_reject {
-                const x as Number = 130;
+                const x as Number = 195;
                 const horizontalJustification as String = "center";
-                const y as Number = 268;
+                const y as Number = 0;
             } // confirmation_loc__hint_reject
 
             module confirmation_icon_dark__hint_delete {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_delete.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_delete.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon_dark__hint_delete
 
             module activity_color_dark__background {
@@ -450,15 +442,14 @@ module BLEBarrel {
             } // system_icon_positive__hint_button_left_middle
 
             module system_size__menu_icon {
-                const scaleX as Number = 45;
-                const scaleY as Number = 45;
+                const scaleX as Number = 60;
+                const scaleY as Number = 60;
                 const scaleRelativeTo as String = "screen";
             } // system_size__menu_icon
 
             module system_icon_destructive__warning {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_destructive__warning.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_destructive__warning.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_destructive__warning
 
             module system_loc__hint_button_right_middle {
@@ -466,20 +457,20 @@ module BLEBarrel {
             } // system_loc__hint_button_right_middle
 
             module system_icon_dark__cancel {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__cancel.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__cancel.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
             } // system_icon_dark__cancel
 
             module prompt_size__body_with_title {
-                const width as Number = 312;
-                const height as Number = 215;
+                const width as Number = 310;
+                const height as Number = 167;
             } // prompt_size__body_with_title
 
             module system_loc__hint_button_right_top {
-                const x as Number = 319;
-                const y as Number = 72;
+                const x as Number = 338;
+                const y as Number = 73;
             } // system_loc__hint_button_right_top
 
             module system_color_light__text {
@@ -488,21 +479,21 @@ module BLEBarrel {
             } // system_color_light__text
 
             module system_icon_light__check {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__check.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__check.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
             } // system_icon_light__check
 
             module confirmation_input__reject {
-                const y1 as Number = 274;
-                const x1 as Number = 66;
-                const y2 as Number = 348;
-                const x2 as Number = 192;
+                const y1 as Number = 0;
+                const x1 as Number = 100;
+                const y2 as Number = 80;
+                const x2 as Number = 290;
             } // confirmation_input__reject
 
             module system_icon_light__revert {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__revert.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__revert.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -517,24 +508,27 @@ module BLEBarrel {
             } // system_icon_positive__hint_button_left_bottom
 
             module system_icon_dark__check {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__check.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__check.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
             } // system_icon_dark__check
 
             module confirmation_loc__hint_keep {
-                const x as Number = 322;
-                const y as Number = 258;
+                const x as Number = 195;
+                const horizontalJustification as String = "center";
+                const y as Number = 310;
             } // confirmation_loc__hint_keep
 
             module confirmation_loc__hint_delete {
-                const x as Number = 319;
-                const y as Number = 72;
+                const x as Number = 195;
+                const horizontalJustification as String = "center";
+                const y as Number = 0;
             } // confirmation_loc__hint_delete
 
             module system_icon_positive__hint_action_menu {
-                const exclude as Boolean = true;
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_positive__hint_button_right_top.svg";
+                const dithering as String = "none";
             } // system_icon_positive__hint_action_menu
 
             module system_icon_positive__hint_button_right_middle {
@@ -546,39 +540,36 @@ module BLEBarrel {
             } // system_icon_light__hint_button_left_middle
 
             module system_icon_dark__hint_button_right_bottom {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__hint_button_right_bottom.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_bottom.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_dark__hint_button_right_bottom
 
             module system_icon_positive__hint_button_right_bottom {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_positive__hint_button_right_bottom.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_positive__hint_button_right_bottom.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_positive__hint_button_right_bottom
 
             module system_icon_dark__revert {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__revert.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__revert.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
             } // system_icon_dark__revert
 
             module confirmation_icon_light__hint_delete {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_delete.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_delete.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon_light__hint_delete
 
             module system_icon_dark__question {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__question.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__question.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
             } // system_icon_dark__question
 
             module system_icon_light__discard {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__discard.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__discard.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -588,16 +579,15 @@ module BLEBarrel {
                 const screenWidth as Number = 390;
                 const screenShape = Toybox.System.SCREEN_SHAPE_ROUND;
                 const hasNightMode as Boolean = false;
-                const hasGpu as Boolean = true;
+                const hasGpu as Boolean = false;
                 const screenHeight as Number = 390;
                 const hasTouchScreen as Boolean = true;
                 const hasEnhancedReadabilityMode as Boolean = false;
             } // device_info
 
             module confirmation_icon_dark__hint_confirm {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_completion.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_completion.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon_dark__hint_confirm
 
             module prompt_font__body_no_title {
@@ -606,12 +596,12 @@ module BLEBarrel {
             } // prompt_font__body_no_title
 
             module prompt_size__title_icon {
-                const scaleX as Float = 0.12;
+                const scaleX as Float = 0.14;
                 const scaleRelativeTo as String = "screen";
             } // prompt_size__title_icon
 
             module system_icon_dark__warning {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_dark__warning.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__warning.svg";
                 const compress as String = "true";
                 const dithering as String = "none";
                 const automaticPalette as String = "true";
@@ -619,7 +609,7 @@ module BLEBarrel {
 
             module prompt_loc__title_icon {
                 const x as Number = 195;
-                const y as Number = 39;
+                const y as Number = 45;
                 const horizontalJustification as String = "center";
                 const verticalJustification as String = "center";
             } // prompt_loc__title_icon
@@ -634,26 +624,23 @@ module BLEBarrel {
             } // prompt_color_dark__body
 
             module confirmation_icon__hint_delete {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\confirmation_icon__hint_delete.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\confirmation_icon__hint_delete.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // confirmation_icon__hint_delete
 
             module system_icon_light__hint_button_right_top {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_light__hint_button_right_top.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_dark__hint_button_right_top.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_light__hint_button_right_top
 
             module confirmation_size__body {
-                const width as Number = 231;
-                const height as Number = 234;
+                const width as Number = 310;
+                const height as Number = 211;
             } // confirmation_size__body
 
             module system_icon_positive__check {
-                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu441mm\\system_icon_positive__check.svg";
+                const filename as String = "C:\\Users\\greg\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\approachs50\\system_icon_positive__check.svg";
                 const dithering as String = "none";
-                const packingFormat as String = "png";
             } // system_icon_positive__check
         } // Styles
     } // Rez

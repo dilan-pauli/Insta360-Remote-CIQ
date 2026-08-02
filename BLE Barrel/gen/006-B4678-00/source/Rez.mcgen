@@ -17,7 +17,7 @@ module BLEBarrel {
             } // system_size__menu_header
 
             module system_loc__hint_button_left_bottom {
-                const x as Number = 13;
+                const x as Number = 2;
                 const y as Number = 237;
             } // system_loc__hint_button_left_bottom
 
@@ -43,8 +43,8 @@ module BLEBarrel {
             } // system_icon_light__question
 
             module system_loc__hint_button_left_top {
-                const x as Number = 12;
-                const y as Number = 64;
+                const x as Number = 0;
+                const y as Number = 53;
             } // system_loc__hint_button_left_top
 
             module prompt_font__title {
@@ -137,8 +137,8 @@ module BLEBarrel {
             } // system_icon_destructive__hint_action_menu
 
             module system_loc__hint_action_menu {
-                const x as Number = 287;
-                const y as Number = 71;
+                const x as Number = 293;
+                const y as Number = 56;
             } // system_loc__hint_action_menu
 
             module confirmation_icon__hint_confirm {
@@ -147,7 +147,7 @@ module BLEBarrel {
             } // confirmation_icon__hint_confirm
 
             module system_loc__hint_button_left_middle {
-                const x as Number = 6;
+                const x as Number = -4;
                 const y as Number = 147;
             } // system_loc__hint_button_left_middle
 
@@ -239,8 +239,8 @@ module BLEBarrel {
             } // system_icon_destructive__hint_button_right_top
 
             module confirmation_loc__hint_confirm {
-                const x as Number = 285;
-                const y as Number = 66;
+                const x as Number = 290;
+                const y as Number = 60;
             } // confirmation_loc__hint_confirm
 
             module activity_color_dark__text {
@@ -302,8 +302,8 @@ module BLEBarrel {
             } // system_icon_positive__hint_button_left_top
 
             module system_loc__hint_button_right_bottom {
-                const x as Number = 285;
-                const y as Number = 234;
+                const x as Number = 291;
+                const y as Number = 240;
             } // system_loc__hint_button_right_bottom
 
             module confirmation_icon_dark__hint_reject {
@@ -410,7 +410,7 @@ module BLEBarrel {
             } // system_icon_destructive__hint_button_right_middle
 
             module confirmation_loc__hint_reject {
-                const x as Number = 13;
+                const x as Number = 0;
                 const y as Number = 233;
                 const horizontalJustification as String = "left";
             } // confirmation_loc__hint_reject
@@ -463,8 +463,8 @@ module BLEBarrel {
             } // prompt_size__body_with_title
 
             module system_loc__hint_button_right_top {
-                const x as Number = 287;
-                const y as Number = 71;
+                const x as Number = 293;
+                const y as Number = 56;
             } // system_loc__hint_button_right_top
 
             module system_color_light__text {
@@ -503,14 +503,14 @@ module BLEBarrel {
             } // system_icon_dark__check
 
             module confirmation_loc__hint_keep {
-                const x as Number = 13;
+                const x as Number = 0;
                 const y as Number = 233;
                 const horizontalJustification as String = "left";
             } // confirmation_loc__hint_keep
 
             module confirmation_loc__hint_delete {
-                const x as Number = 285;
-                const y as Number = 66;
+                const x as Number = 290;
+                const y as Number = 60;
             } // confirmation_loc__hint_delete
 
             module system_icon_positive__hint_action_menu {

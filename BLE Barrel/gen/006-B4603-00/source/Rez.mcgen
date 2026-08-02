@@ -140,7 +140,8 @@ module BLEBarrel {
             } // system_icon_destructive__hint_action_menu
 
             module system_loc__hint_action_menu {
-                const exclude as Boolean = true;
+                const x as Number = 422;
+                const y as Number = 190;
             } // system_loc__hint_action_menu
 
             module confirmation_icon__hint_confirm {
