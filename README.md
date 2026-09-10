@@ -22,3 +22,52 @@ All Garmin's devices with BLE (Bluetooth Low Energy) and CIQ V3.1 or later are s
 Widget avaialbe at https://apps.garmin.com/apps/bb53f4bb-6c8c-4369-bca9-84cc09b25526
 
 Datafield for touch based Garmin Edge Devices avaialble at https://apps.garmin.com/apps/f0cdaa9c-5733-4748-ba66-1c7a3b008922
+
+## Development Environment (devenv)
+
+This repository is configured with [devenv](https://devenv.sh) to provide a reproducible build environment including JDK 17, Garmin Connect IQ SDK tools (`monkeyc`, `barrelbuild`), and `connect-iq-sdk-manager`.
+
+### Quick Start
+
+1. Enter the devenv shell:
+   ```bash
+   devenv shell
+   ```
+   (or allow with `direnv allow` if using direnv)
+
+2. First-time setup:
+   - **Log in to Garmin SSO** (required by Garmin to download device definitions):
+     ```bash
+     ciq-login
+     ```
+   - **Download target device definitions**:
+     ```bash
+     download-devices
+     ```
+   - **Generate a developer signing key** (if you don't already have one):
+     ```bash
+     generate-key
+     ```
+
+3. Build targets:
+   - **BLE Barrel**:
+     ```bash
+     build-barrel
+     ```
+   - **OneR remote widget**:
+     ```bash
+     DEVICE=fenix7 build-widget
+     ```
+   - **OneR remote DF datafield**:
+     ```bash
+     DEVICE=edge1030 build-datafield
+     ```
+   - **Build everything**:
+     ```bash
+     build-all
+     ```
+   - **Create Store Release Packages (.iq)**:
+     ```bash
+     package-widget
+     package-datafield
+     ```
